@@ -91,7 +91,7 @@ public class ApplicationConfig {
                 }
 
                 UserDTO user = ctx.attribute("user");
-                System.out.println("UUSER IN CHECK_SEC_ROLES: "+user);
+                System.out.println("USER IN CHECK_SEC_ROLES: "+user);
                 if(user == null){
                     ctx.status(HttpStatus.FORBIDDEN)
                             .json(jsonMapper.createObjectNode().put("msg", "Not Authorized. No username was added from the "));

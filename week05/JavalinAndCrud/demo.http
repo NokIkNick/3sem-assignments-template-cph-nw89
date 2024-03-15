@@ -42,7 +42,7 @@ DELETE http://localhost:7007/api/room/3
 POST http://localhost:7007/api/auth/register
 
 {
-"username":"Gutestfemogtyve",
+"username":"Gutestfemogtyvehej",
 "password":"Testpassword"
 }
 ###
@@ -50,7 +50,7 @@ POST http://localhost:7007/api/auth/register
 POST http://localhost:7007/api/auth/login
 
 {
-"username":"Gutestfemogtyve",
+"username":"Gutestfemogtyvehej",
 "password":"Testpassword"
 }
 ###
